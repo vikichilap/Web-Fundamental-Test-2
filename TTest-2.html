@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Flex Box</title>
+    <style>
+        #container {
+            height: 200px;
+            display: flex;
+            background-color: red;
+            justify-content: space-evenly;
+            align-items: center;
+         
+        }
+        #box1,#box2,#box3 {
+            margin-top: 20px;
+            background-color: green;
+            height: 50px;
+            width: 150px;
+        }
+        #box1{
+            display: flex;
+            justify-content: flex-start;
+            color: beige;
+        }
+        #box2{
+            display: flex;
+            color: beige;
+            justify-content: center;
+            align-items: center;
+        }
+        #box3{
+            display: flex;
+            color: azure;
+            align-items: flex-end;
+            justify-content: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box1">child1</div>
+        <div id="box2">child2</div>
+        <div id="box3">child3</div>
+
+    </div>
+</body>
+</html>
